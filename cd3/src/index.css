@@ -1,0 +1,119 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Body Background with Blend Mode */
+  body {
+    background: url(https://images.unsplash.com/photo-1729824346255-52a8f898fe84?w=1400)
+      50% / cover #212121;
+    background-blend-mode: multiply; /* Darken the image */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+
+  /* Container Card */
+  .container {
+    width: 600px;
+    background: #141414;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 
+      inset 0 0 50px 10px rgba(255, 0, 0, 0.2), /* Red Glow */
+      inset 0 0 50px 10px rgba(0, 255, 0, 0.2), /* Green Glow */
+      inset 0 0 50px 10px rgba(0, 0, 255, 0.2), /* Blue Glow */
+      inset 0 0 50px 10px rgba(255, 165, 0, 0.8); /* Orange Glow */
+  }
+
+  /* Flexbox Layout */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 2px dotted #fdcb6e;
+    padding-bottom: 10px;
+  }
+
+  /* Heading Style */
+  .heading {
+    font-size: 2rem;
+    color: #fdcb6e;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  /* Button Styling */
+  button {
+    background-color:#fdcb6e; /* Spring Green */
+    color: black;
+    padding: 6px 6px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+ 
+  }
+
+  button:hover {
+    background-color:  rgba(255, 165, 0, 0.8); /* Lime Green */
+    transform: scale(1.1);
+  }
+
+  /* Input Field */
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #fdcb6e;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 14px;
+    
+  }
+
+  /* List Items Styling */
+  ul {
+    list-style: none;
+  }
+
+  li {
+    padding: 10px;
+    border-bottom: 1px solid #444;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* Remove Button */
+  .remove-btn {
+    background-color:#fdcb6e; /* Spring Green */
+    color: black;
+    padding: 6px 6px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+ 
+  }
+
+  .remove-btn:hover {
+    background-color:  rgba(255, 165, 0, 0.8); /* Lime Green */
+    transform: scale(1.1);
+  }
+.form{
+display: flex;
+}
+.checked-btn{
+  padding:15px;
+}
